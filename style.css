@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'True Lies';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('True Lies.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+.header {
+	margin-top: 20px;
+	font-family: 'True Lies', Fallback, sans-serif;
+	font-size: 40px;
+}
+.nameText, .leaderboardPoints {
+	font-size: 3.2vw;
+	line-height: 1.08;
+	letter-spacing: -0.03em;
+	font-weight: 900;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: left;
+}
+.leaderboardPoints {
+	color:gray;
+}
+.mainPictureOfCast {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.circular {
+	width: 180px;
+	height: 180px;
+	border-radius: 180px;
+	-webkit-border-radius: 90px;
+	-moz-border-radius: 90px;
+}
+#hubbard {
+	background: url("static/profilePics/hubbard.png") no-repeat;
+}
+.round {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+}
+.round img {
+    display: block;
+	/* Stretch 
+      	height: 100%;
+      	width: 100%; */
+	min-width: 100%;
+	min-height: 100%;
+	width: auto !important;
+	text-align: center;
+}
+#imgPone {
+	width:200px;
+	height:200px;
+}
+.teamName {
+	font-family: 'True Lies', Fallback, sans-serif;
+	font-size: 24px;
+}
